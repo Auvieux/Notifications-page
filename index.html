@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="diseño.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Notifications page</title>
+  </head>
+
+  <body>
+    <main class="contenedor">
+      <header class="header">
+        <h2 class="header__titulo">
+          Notifications <span class="numero">3</span>
+        </h2>
+        <a href="#" class="header_a">Mark all as read</a>
+      </header>
+
+      <article class="notificacion sin-leer">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-mark-webber.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Mark Webber</strong> reacted to your recent post My first
+          tournament today! <span class="punto"></span>
+        </p>
+        <p class="fecha">1m ago</p>
+      </article>
+
+      <article class="notificacion sin-leer">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-angela-gray.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Angela Gray</strong> followed you <span class="punto"></span>
+        </p>
+        <p class="fecha">5m ago</p>
+      </article>
+
+      <article class="notificacion sin-leer">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-jacob-thompson.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Jacob Thompson</strong> has joined your group Chess Club
+          <span class="punto"></span>
+        </p>
+        <p class="fecha">1 day ago</p>
+      </article>
+
+      <article class="notificacion notificacion-mensaje">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-rizky-hasanuddin.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Rizky Hasanuddin</strong> sent you a private message
+        </p>
+        <p class="fecha">5 days ago</p>
+        <p class="notificacion__p notificacion_mensaje">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+      </article>
+
+      <article class="notificacion notificacion-imagen">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-kimberly-smith.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Kimberly Smith</strong> commented on your picture
+        </p>
+        <p class="fecha">1 week ago</p>
+        <img
+          class="notificacion_imagen"
+          src="assets/images/image-chess.webp"
+          alt=""
+        />
+      </article>
+
+      <article class="notificacion">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-nathan-peterson.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Nathan Peterson</strong> reacted to your recent post 5
+          end-game strategies to increase your win rate
+        </p>
+        <p class="fecha">2 weeks ago</p>
+      </article>
+
+      <article class="notificacion">
+        <img
+          class="noti__img"
+          src="assets/images/avatar-anna-kim.webp"
+          alt=""
+        />
+        <p class="notificacion__p">
+          <strong>Anna Kim</strong> left the group Chess Club
+        </p>
+        <p class="fecha">2 weeks ago</p>
+      </article>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
